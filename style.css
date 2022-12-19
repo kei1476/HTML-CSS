@@ -298,19 +298,24 @@ aside{
 }
 
 @media (max-width:1000px ){
+
+  .wrap {
+    overflow: hidden;
+  }
   .header-area{
     display: block;
     text-align: center;
     padding-top: 30px;
+    max-width: 100%;
   }
 
   .header-tel{
     display: none;
   }
   
-    .main-image-area {
+  .main-image-area {
       height: auto;
-    }
+  }
 
   .main-contents{
     display:flex;
@@ -418,6 +423,11 @@ aside{
 }
 
 @media (max-width:600px){
+
+  .header-area {
+    width: 75%;
+    margin: 0 auto;
+  }
 
   .main-contents {
     width: 95%;
