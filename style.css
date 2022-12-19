@@ -32,6 +32,7 @@ p {
 
 .header-area{
   width: 75%;
+  width: 1000px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -50,6 +51,11 @@ p {
   top: 22px;
   right: 12px;
   font-size: 17px;
+}
+
+.fa-phone {
+  color: rgb(63, 190, 240);
+  margin-right: 6px;
 }
 
 .menu-button {
